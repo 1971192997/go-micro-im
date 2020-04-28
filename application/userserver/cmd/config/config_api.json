@@ -1,0 +1,19 @@
+{
+  "Version": "0.0.1",
+  "Port": ":8080",
+  "Server": {
+    "Name": "user.rpc.server",
+    "RateLimit": 1000
+  },
+  "Etcd": {
+    "Address": [
+      "127.0.0.1:2379"
+    ],
+    "UserName": "",
+    "Password": ""
+  },
+  "Engine": {
+    "Name": "mysql",
+    "DataSource": "root:123456@tcp(127.0.0.1:3307)/members?charset=utf8"
+  }
+}
